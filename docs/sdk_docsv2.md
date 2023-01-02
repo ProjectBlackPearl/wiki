@@ -9,9 +9,9 @@ A plugin also has to return the data like the example below
 ```json
 {
     "response": [
-        { "title": "Game Title", "urls": [ "https://example.com" ] }
-        { "title": "Game Title", "urls": [ "https://example.com" ] }
-        { "title": "Game Title", "urls": [ "https://example.com" ] }
+        { "title": "Game Title", "urls": ["https://example.com"] }
+        { "title": "Game Title", "urls": ["https://example.com"] }
+        { "title": "Game Title", "urls": ["https://example.com"] }
     ]
 }
 ```
