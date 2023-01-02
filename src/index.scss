@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+$bg: #30324a;
 $gray: #1d1e2c;
 $white: #d5dad9;
-$bg: #30324a;
+$red: #f25f5c;
+$blue: #5bc0eb;
+$yellow: #ffe066;
+
 $gray-darken: darken($bg, 7%);
 $white-darken: darken($white, 10%);
 
-$width: 17.5rem;
+$width: 19.5rem;
 
 * {
 	text-decoration: none;
@@ -40,11 +44,11 @@ body {
 		li {
 			list-style-type: disc;
 			color: $white;
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 			padding-bottom: 5px;
 
 			& a {
-				font-size: 1.5rem;
+				font-size: 1.2rem;
 
 				color: $white;
 				text-decoration: none;
@@ -61,54 +65,64 @@ body {
 	font-size: 1.3rem;
 	color: $white;
 
-	span {
-		font-size: 1.8rem;
-	}
-
-	a {
-		color: unset;
-	}
-
-	pre {
-		border: 5px solid $gray-darken;
-		background-color: $gray-darken;
-		padding: 0.5rem;
-		border-radius: 10px;
-		color: $white-darken;
-
-		font-size: 1.2rem;
-	}
-
-	table {
-		border: 1px solid $white;
-		border-radius: 10px;
-		background-color: $gray;
-		width: 100%;
-	}
-
-	th:nth-last-child(1),
-	th:nth-last-child(2) {
-		border-left: 1px solid $white;
-	}
-
-	td {
-		padding: 5px 0 5px 1rem;
-		border-top: 1px solid $white-darken;
-
-		&:nth-last-child(1) {
-			border-left: 1px solid $white-darken;
+	article {
+		.title {
+			font-size: 2.3rem;
+			font-weight: 800;
+			margin-top: 0.2em;
 		}
 
-		&:nth-last-child(2) {
-			border-left: 1px solid $white-darken;
+		a {
+			color: unset;
+
+			span {
+				font-size: 1.8rem;
+			}
 		}
-	}
 
-	tr:nth-child(even) {
-		background-color: $gray;
-	}
+		pre {
+			border: 5px solid $gray-darken;
+			background-color: $gray-darken;
+			padding: 0.5rem;
+			border-radius: 10px;
+			color: $white-darken;
 
-	tr:nth-child(odd) {
-		background-color: $gray-darken;
+			font-size: 1.2rem;
+		}
+
+		table {
+			border: 1px solid $white;
+			border-radius: 10px;
+			background-color: $gray;
+			width: 100%;
+
+			th:nth-last-child(1),
+			th:nth-last-child(2) {
+				border-left: 1px solid $white;
+			}
+
+			td {
+				padding: 5px 0 5px 1rem;
+				border-top: 1px solid $white-darken;
+
+				&:nth-last-child(1) {
+					border-left: 1px solid $white-darken;
+				}
+
+				&:nth-last-child(2) {
+					border-left: 1px solid $white-darken;
+				}
+			}
+
+			tr {
+				&:nth-child(even) {
+					background-color: $gray;
+				}
+
+				&:nth-child(odd) {
+					background-color: $gray-darken;
+				}
+			}
+		}
 	}
 }

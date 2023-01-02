@@ -1,8 +1,8 @@
-# SDK Documentation
+<h1 class="title">SDK Documentation</h1>
 
 The plugin SDK is written in C# and it looks like this
 
-```cs
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -60,7 +60,7 @@ The response format for a Scraper is written in JSON an looks like this
 
 So an example of a valid plugin code would be like this
 
-```cs
+```csharp
 namespace KoolPlugin
 {
     internal class KoolPlugin : Project_Black_Pearl.SDK.PBPPlugin

@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+<h1 class="title">Frequently Asked Questions (FAQ)</h1>
 
 ### PBP is crashing on startup, what do i do?
 

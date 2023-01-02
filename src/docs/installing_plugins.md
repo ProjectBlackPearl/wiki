@@ -1,4 +1,4 @@
-# Installing Plugins
+<h1 class="title">Installing Plugins</h1>
 
 After you downloaded (or made your plugin) you will need to install it to use it. The way you do it is simple!
 
