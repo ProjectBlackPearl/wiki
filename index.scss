@@ -17,6 +17,26 @@ $width: 17.3rem;
 	border-radius: $border-radius;
 }
 
+@mixin popup($color, $icon) {
+	@include border($color, 2px, solid, 10px);
+	background-color: darken($color, 45%);
+
+	display: inline-block;
+
+	margin-left: 0px;
+
+	padding: 1rem 1.1rem 0.5rem 1.2rem;
+
+	span {
+		font-size: 1.4rem;
+
+		&::before {
+			content: $icon;
+			font-weight: 900;
+		}
+	}
+}
+
 * {
 	text-decoration: none;
 }
@@ -82,7 +102,7 @@ body {
 }
 
 .content {
-	margin-right: 1.2rem;
+	margin-right: 7rem;
 	margin-left: $width + 1.5rem;
 
 	font-family: 'Rubik';
@@ -90,6 +110,14 @@ body {
 	color: $white;
 
 	article {
+		#warning {
+			@include popup($red, '⚠ ');
+		}
+
+		#info {
+			@include popup($blue, 'ⓘ  ');
+		}
+
 		.title {
 			font-size: 2.3rem;
 			font-weight: 800;
@@ -105,6 +133,11 @@ body {
 			}
 		}
 
+		p a {
+			color: $blue;
+			text-decoration: underline;
+		}
+
 		pre {
 			@include border($gray-darken, 5px, solid, 10px);
 
@@ -114,6 +147,20 @@ body {
 
 			color: $white-darken;
 			font-size: 1.2rem;
+		}
+
+		li,
+		p {
+			margin-bottom: 10px;
+			margin-top: 10px;
+
+			code {
+				@include border($gray-darken, 1px, solid, 10px);
+				background-color: $gray-darken;
+				font-size: 1rem;
+
+				padding: 3px 5px;
+			}
 		}
 
 		table {

@@ -1,9 +1,19 @@
 <h1 class="title">Installing Plugins</h1>
 
-After you downloaded (or made your plugin) you will need to install it to use it. The way you do it is simple!
+After you downloaded (or made your plugin) you will need to install it to use it. There's 2 ways of doing it, both are easy!
 
--   Copy the plugin DLL into `%appdata%\Project Black Pearl\Extensions`
--   It should come with Images and Scrapers, put the images on the `Images` folder
--   And put the scrapers on the `Scrapers` folder
+## Via PBP
 
-After that, your plugin should be installed! Now you can boot up PBP and use it.
+-   Open the app and go to Preferences
+-   Click the install plugin button
+-   Select your plugin and click OK
+
+## Manually
+
+-   Move your plugin to:
+    -   On Windows: `%appdata%\org.blackpearl.PBP\scrapers\`
+    -   On macOS: `$HOME/Library/Application Support/org.blackpearl.PBP/scrapers/`
+    -   On Linux: `$HOME/.local/share/org.blackpearl.PBP/scrapers/`
+-   Restart PBP
+
+Currently also you can only uninstall plugins via the manual way

@@ -1,5 +1,10 @@
 <h1 class="title">SDK Documentation</h1>
 
+<blockquote id="warning">
+    <span>Warning</span>
+    <p>This page has been deprecated, please read <a href="./sdk_docsv2.md">this</a> instead</p>
+</blockquote>
+
 The plugin SDK is written in C# and it looks like this
 
 ```csharp

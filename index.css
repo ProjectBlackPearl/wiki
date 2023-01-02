@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   text-decoration: none;
@@ -56,11 +57,47 @@ body {
 }
 
 .content {
-  margin-right: 1.2rem;
+  margin-right: 7rem;
   margin-left: 18.8rem;
   font-family: 'Rubik';
   font-size: 1.3rem;
   color: #d5dad9;
+}
+
+.content article #warning {
+  border: 2px solid #f25f5c;
+  border-radius: 10px;
+  background-color: #610a08;
+  display: inline-block;
+  margin-left: 0px;
+  padding: 1rem 1.1rem 0.5rem 1.2rem;
+}
+
+.content article #warning span {
+  font-size: 1.4rem;
+}
+
+.content article #warning span::before {
+  content: "⚠ ";
+  font-weight: 900;
+}
+
+.content article #info {
+  border: 2px solid #5bc0eb;
+  border-radius: 10px;
+  background-color: #0a3f56;
+  display: inline-block;
+  margin-left: 0px;
+  padding: 1rem 1.1rem 0.5rem 1.2rem;
+}
+
+.content article #info span {
+  font-size: 1.4rem;
+}
+
+.content article #info span::before {
+  content: "ⓘ  ";
+  font-weight: 900;
 }
 
 .content article .title {
@@ -77,6 +114,11 @@ body {
   font-size: 1.8rem;
 }
 
+.content article p a {
+  color: #5bc0eb;
+  text-decoration: underline;
+}
+
 .content article pre {
   border: 5px solid #222334;
   border-radius: 10px;
@@ -84,6 +126,21 @@ body {
   padding: 0.5rem;
   color: #bac2c0;
   font-size: 1.2rem;
+}
+
+.content article li,
+.content article p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content article li code,
+.content article p code {
+  border: 1px solid #222334;
+  border-radius: 10px;
+  background-color: #222334;
+  font-size: 1rem;
+  padding: 3px 5px;
 }
 
 .content article table {
