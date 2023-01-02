@@ -1,4 +1,6 @@
-### PBP Wiki
+<div class="logo">
+    <img src="Logo.svg" alt="logo" width="150" />
+</div>
 
 -   [Home](../README.md)
 -   [Installing Plugins](./docs/installing_plugins.md)
