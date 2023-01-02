@@ -1,3 +1,1 @@
-# Fuck you
-
-fuck you
+# Wiki
