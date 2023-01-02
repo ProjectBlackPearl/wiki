@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #30324a;
+}
+
+.sidebar {
+  z-index: 1;
+  font-family: 'Rubik';
+  height: 100%;
+  width: 17.3rem;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: #1d1e2c;
+}
+
+.sidebar span {
+  font-size: 1.4rem;
+  color: #d5dad9;
+  padding-left: 1rem;
+}
+
+.sidebar .sidebar-nav .logo {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.sidebar .sidebar-nav .logo img[alt='logo'] {
+  border: 5px solid #d5dad9;
+  border-radius: 100px;
+  background-color: #d5dad9;
+}
+
+.sidebar .sidebar-nav ul {
+  padding-left: 50px;
+}
+
+.sidebar .sidebar-nav ul li {
+  list-style-type: disc;
+  color: #d5dad9;
+  font-size: 1.4rem;
+  padding-bottom: 5px;
+}
+
+.sidebar .sidebar-nav ul li a {
+  font-size: 1.2rem;
+  color: #d5dad9;
+  text-decoration: none;
+}
+
+.content {
+  margin-right: 1.2rem;
+  margin-left: 18.8rem;
+  font-family: 'Rubik';
+  font-size: 1.3rem;
+  color: #d5dad9;
+}
+
+.content article .title {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-top: 0.2em;
+}
+
+.content article a {
+  color: unset;
+}
+
+.content article a span {
+  font-size: 1.8rem;
+}
+
+.content article pre {
+  border: 5px solid #222334;
+  border-radius: 10px;
+  background-color: #222334;
+  padding: 0.5rem;
+  color: #bac2c0;
+  font-size: 1.2rem;
+}
+
+.content article table {
+  border: 1px solid #acb6b4;
+  border-radius: 10px;
+  background-color: #1d1e2c;
+  width: 100%;
+}
+
+.content article table th:nth-last-child(1),
+.content article table th:nth-last-child(2) {
+  border-left: 1px solid #acb6b4;
+}
+
+.content article table td {
+  padding: 5px 0 5px 1rem;
+  border-top: 1px solid #acb6b4;
+}
+
+.content article table td:nth-last-child(1) {
+  border-left: 1px solid #acb6b4;
+}
+
+.content article table td:nth-last-child(2) {
+  border-left: 1px solid #acb6b4;
+}
+
+.content article table tr:nth-child(even) {
+  background-color: #1d1e2c;
+}
+
+.content article table tr:nth-child(odd) {
+  background-color: #222334;
+}
+/*# sourceMappingURL=index.css.map */

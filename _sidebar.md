@@ -2,7 +2,7 @@
     <img src="Logo.svg" alt="logo" width="150" />
 </div>
 
--   [Home](../README.md)
+-   [Home](./README.md)
 -   [Installing Plugins](./docs/installing_plugins.md)
 -   [SDK Docs](./docs/sdk_docs.md)
     -   [Response Format](./docs/sdk_docs?id=response-format)
