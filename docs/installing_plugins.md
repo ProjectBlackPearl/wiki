@@ -1,6 +1,6 @@
 <h1 class="title">Installing Plugins</h1>
 
-After you downloaded (or made your plugin) you will need to install it to use it. There's 2 ways of doing it, both are easy!
+After you downloaded (or made your plugin) you will need to install it to use it. There's 2 ways of doing it; both are easy!
 
 ## Via PBP
 

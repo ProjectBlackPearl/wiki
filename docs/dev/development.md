@@ -2,10 +2,10 @@
 
 <blockquote id="attention">
     <span>Attention</span>
-    <p>You only need to follow the following instructions if you want to modify the app<br>Otherwise just download from releases</p>
+    <p>You only need to follow the following instructions if you want to modify the app.<br>Otherwise, just download from releases</p>
 </blockquote>
 
-## Prerequisits
+## Prerequisites
 
 This is a list of the minimum you need to use the software
 

@@ -23,7 +23,7 @@ A plugin also has to return the data like the example below
 
 it's data onto a file called `results.json` with this format
 
-On the `urls` array, you can include an unlimited amount of URL's, but we recommend from 1 to a max of 4 urls
+On the `urls` array, you can include an unlimited amount of URLs, but we recommend from 1 to a max of 4 urls
 
 ## Arguments
 

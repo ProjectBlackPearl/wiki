@@ -2,7 +2,7 @@
 
 ## With code
 
-Contributing this project is easy and appreciated.
+Contributing to this project is easy and appreciated.
 
 You need [git](https://git-scm.com) for contributing.
 
@@ -14,7 +14,7 @@ You need [git](https://git-scm.com) for contributing.
 
 ## Translating
 
-PBP supports other languages, that means you can use it without knowing english.
+PBP supports other languages, which means you can use it without knowing English.
 
 Any translation is greatly appreciated.<br><br>
 
@@ -31,7 +31,7 @@ There are two ways of doing it:<br>
 
 <blockquote id="info">
     <span>Info</span>
-    <p>If the language that you want to translate isn't avaliable, create a topic on the discussions tab and ask for it to be added</p>
+    <p>If the language that you want to translate isn't available, create a topic on the discussions tab and ask for it to be added</p>
 </blockquote>
 
 </details>
@@ -42,7 +42,7 @@ There are two ways of doing it:<br>
 1. [Fork the repo](https://github.com/ProjectBlackPearl/PBPL/fork)
 2. Create a branch `git checkout -b klingon-translation`
 3. Go to `src/locale/lang`
-4. Create a new file named by the [2 letter ISO code (ISO-639-1)](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+4. Create a new file named after the [2-letter ISO code (ISO-639-1)](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 5. Copy the `en.json` file into it
 6. Edit the file but not the keys (Example: `loadingText`)
 7. Throw everything into your fork
