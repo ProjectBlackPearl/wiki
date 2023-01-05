@@ -34,30 +34,3 @@ Example:
 ```bash
 ./plugin "0ad" /home/user/Documents/
 ```
-
-## Examples
-
-An example of a plugin written in Dart, For more examples, check out GitHub repo!
-
-```dart
-import "dart:io";
-import "dart:convert";
-
-void main(List<String> args) {
-    String query = args[0];
-    String cache = !args.asMap().containsKey(1) ? './' : args[1];
-
-    Map<String, dynamic> sampleData = {
-        'response': [
-            {'title': "OneShot", 'urls': ["https://store.vapourpowered.com/oneshot"]},
-            {'title': "Among Us", 'urls': ["https://store.vapourpowered.com/amongus"]},
-            {'title': "Superliminal", 'urls': ["https://store.vapourpowered.com/superliminal"]},
-        ]
-    };
-
-    var sampleDataConverted = jsonEncode(sampleData);
-
-    var file = File(cache);
-    file.writeAsString(sampleDataConverted);
-}
-```

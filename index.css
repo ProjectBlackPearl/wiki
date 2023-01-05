@@ -57,11 +57,15 @@ body {
 }
 
 .content {
-  margin-right: 7rem;
+  margin-right: 4rem;
   margin-left: 18.8rem;
   font-family: 'Rubik';
   font-size: 1.3rem;
   color: #d5dad9;
+}
+
+.content article blockquote {
+  margin: 5px;
 }
 
 .content article #warning {
@@ -100,14 +104,38 @@ body {
   font-weight: 900;
 }
 
+.content article #attention {
+  border: 2px solid #ffe066;
+  border-radius: 10px;
+  background-color: #806600;
+  display: inline-block;
+  margin-left: 0px;
+  padding: 1rem 1.1rem 0.5rem 1.2rem;
+}
+
+.content article #attention span {
+  font-size: 1.4rem;
+}
+
+.content article #attention span::before {
+  content: "⚠ ";
+  font-weight: 900;
+}
+
 .content article .title {
   font-size: 2.3rem;
   font-weight: 800;
   margin-top: 0.2em;
 }
 
-.content article a {
+.content article h2 a {
   color: unset;
+  text-decoration: none;
+}
+
+.content article a {
+  color: #5bc0eb;
+  text-decoration: underline;
 }
 
 .content article a span {
