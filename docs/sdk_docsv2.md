@@ -1,6 +1,6 @@
 <h1 class="title">SDK Documentation</h1>
 
-Plugins can be written in any language if they can be compiled to a native binary, but there are some exceptions, those being: [Python](https://www.python.org) and [Lua](https://www.lua.org)
+Plugins can be written in any language if they can be compiled to a native binary
 
 ## Response Format
 

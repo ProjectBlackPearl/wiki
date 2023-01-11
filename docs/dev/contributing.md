@@ -22,16 +22,16 @@ There are two ways of doing it:<br>
 <br>
 
 <details>
-    <summary>Using Crowdin</summary>
+    <summary>Using POEditor</summary>
 
-1. Create an account on [Crowdin](https://crowdin.com)
-2. Go to [our page](https://crowdin.com/project/project-black-pearl) on it
+1. Create an account on [POEditor](https://poeditor.com)
+2. Join [our project](https://poeditor.com/join/project/G4mEFhRCt0) on it
 3. Search for your language you want to translate
 4. Start translating!
 
 <blockquote id="info">
     <span>Info</span>
-    <p>If the language that you want to translate isn't available, create a topic on the discussions tab and ask for it to be added</p>
+    <p>If the language that you want to translate isn't available, you can add it on the joining page</p>
 </blockquote>
 
 </details>
