@@ -2,7 +2,7 @@
 
 <blockquote id="warning">
     <span>Warning</span>
-    <p>This page has been deprecated, please read <a href="./sdk_docsv2.md">this</a> instead</p>
+    <p>This page has been deprecated, please read <a href="./docs/sdk_docsv2">this</a> instead</p>
 </blockquote>
 
 The plugin SDK is written in C# and it looks like this
