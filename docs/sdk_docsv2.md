@@ -1,10 +1,10 @@
 <h1 class="title">SDK Documentation</h1>
 
-Plugins can be written in any language if they can be compiled to a native binary
+Plugins can be written in any programming language that can be compiled to a native binary for either Windows, Linux, or MacOS. If possible, please provide a binary for all three of the aforementioned operating systems.
 
 ## Response Format
 
-A plugin also has to return the data like the example below
+Plugins must output response data to a file named `results.json` using the following response schema:
 
 ```json
 {
@@ -16,21 +16,16 @@ A plugin also has to return the data like the example below
 }
 ```
 
-<blockquote id="info">
-    <span>Info</span>
-    <p>The data above has to be inside a file named results.json</p>
-</blockquote>
-
-it's data onto a file called `results.json` with this format
-
-On the `urls` array, you can include an unlimited amount of URLs, but we recommend from 1 to a max of 4 urls
+Plugins can return multiple URLs for each search result in order to support download mirrors, but we recommend returning a maximum of 4 URLs per search query for optimal performance and visuals.
 
 ## Arguments
 
-The plugin executable has to have a few CLI arguments, those being the game name and a location in that order: Game Name, Cache Location
+Plugins must be able to format search queries into CLI commands using the following arguments:
+- Game Name - The game name gathered from the search query.
+- Result Location - The directory to save the `results.json` file to.
 
 Example:
 
 ```bash
-./plugin "0ad" /home/user/Documents/
+./plugin "minecraft" /home/user/Documents/
 ```
