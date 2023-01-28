@@ -1,9 +1,9 @@
 <h1 class="title">Frequently Asked Questions (FAQ)</h1>
 
-## When I try to search for a game. it doesn't appear
+## Why aren't games appearing when I search for them?
 
-There are some reasons for why this is happening
+There are several reasons why this may be happening, included but not limited to:
 
--   The plugin isn't optimized or
--   Response sent by the plugin or
--   You tried to search for a game that doesn't exist
+-   The response of the plugin you're using doesn't match the required response schema.
+-   The plugin you're using took too long to fetch results for your search
+-   The plugin you're using couldn't find the game you searched for.

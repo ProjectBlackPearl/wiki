@@ -1,51 +1,64 @@
 <h1 class="title">Contributing</h1>
 
-## With code
+There are multiple ways to contribute to Project Black Pearl and it's highly appreciated. Please follow one of the guides below depending on how you'd like to contribute.
 
-Contributing to this project is easy and appreciated.
+## With Code
 
-You need [git](https://git-scm.com) for contributing.
+## Prerequisites
 
-1. [Fork the repo](https://github.com/ProjectBlackPearl/PBPL/fork)
-2. Create a branch `git checkout -b branch-name`
-3. Commit them `git commit -m "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rhoncus."`
-4. Push them to Github `git push -u origin branchname`
-5. Open a PR
+The following software is required in order to clone the GitHub repo:
 
-## Translating
+-   [Git](https://git-scm.com/downloads)
 
-PBP supports other languages, which means you can use it without knowing English.
+## Setup
 
-Any translation is greatly appreciated.<br><br>
+<blockquote id="attention">
+    <span>Attention!</span>
+    <p>- Please check <a href="https://github.com/ProjectBlackPearl/project_black_pearl/releases/latest">the to-do list </a> to make sure a feature isn't already being worked on <br> before working on the code for your contribution. <br><br>
+    - If a feature isn't already being worked on, please <a href="https://github.com/ProjectBlackPearl/project_black_pearl/releases/latest">create an issue </a> before you begin <br> working on the code for it in order to discuss whether it should be added.</p>
+</blockquote>
 
-There are two ways of doing it:<br>
-<br>
+1. [Fork the repository.](https://github.com/ProjectBlackPearl/project_black_pearl/fork)
+2. Clone the forked repository locally.
 
-<details>
-    <summary>Using POEditor</summary>
+```
+git clone https://github.com/username/repository.git
+```
 
-1. Create an account on [POEditor](https://poeditor.com)
-2. Join [our project](https://poeditor.com/join/project/G4mEFhRCt0) on it
-3. Search for your language you want to translate
+3. Create a new branch.
+
+```
+git checkout -b [branch-name]
+```
+
+4. Make changes and commit.
+
+```
+git add .
+git commit
+```
+
+5. Push the code.
+
+```
+git push
+```
+
+6. Create a Pull Request for your code on the PBP repository.
+
+<blockquote id="info">
+    <span>Info</span>
+    <p>For information on development, see <a href="https://github.com/ProjectBlackPearl/project_black_pearl/releases/latest">development.</a></p>
+</blockquote>
+
+## With Translation
+
+1. Create an account on [POEditor](https://poeditor.com/register/).
+2. Join [our project](https://poeditor.com/join/project/G4mEFhRCt0).
+3. Find the language you'd like to translate.
 4. Start translating!
 
 <blockquote id="info">
     <span>Info</span>
-    <p>If the language that you want to translate isn't available, you can add it on the joining page</p>
+    <p>If the language you'd like to submit translations for isn't available, you can add it on the join page.</p>
 </blockquote>
-
-</details>
-<br>
-<details>
-    <summary>Using Github</summary>
-
-1. [Fork the repo](https://github.com/ProjectBlackPearl/PBPL/fork)
-2. Create a branch `git checkout -b klingon-translation`
-3. Go to `src/locale/lang`
-4. Create a new file named after the [2-letter ISO code (ISO-639-1)](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-5. Copy the `en.json` file into it
-6. Edit the file but not the keys (Example: `loadingText`)
-7. Throw everything into your fork
-8. Open a PR
-
-</details>
